@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box{
+margin: 10px;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 100%;
+text-align: center;
+}
+img{
+    width: 100%;
+}
+h3{
+    font-weight: 100;
+}
+p{
+    font-size: 14px;
+    text-align-last:centre ;
+}
+
+.box div{
+    padding: 0 10px;
+}
+@media screen and (min-width:601px) {
+    .box{
+        flex: 1 1 10%;
+    }
+} 
+    
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+    
+<div class="container">
+<div class="box">
+    
+    <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+    <div>
+    <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+</div>
+<div class="box">
+    <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+    <div>
+    <h3>Let Me Tell You About This Steak</h3>
+    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div></div>
+<div class="box">
+    <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+    <div>
+    <h3>Cherries, interrupted</h3>
+    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+        What else?</p>
+</div></div>
+<div class="box">
+    <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+    <div>
+    <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div></div>
+</div>
+</body>
+</html>
